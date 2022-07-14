@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo">
+            
+            </a>
+                
+            <div class="nav-links" id="navLinks">
+                <!-- reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- reposnive bar open and close -->
+        </nav>
+        <h1>Our Post</h1>
+    </section>
+
+    <!-- Blog Page Section Start -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <h2>What Is Cyber Security?</h2>
+                <h5>May 1, 2022</h5>
+                <img src="img/post.jpg" alt="">
+                <p>The data and integrity of computing assets that belong or relate to an enterprise’s network are secured by cyber security. Its goal is to defend those assets against all threats.</p>
+                <br>
+                <p>Cyber security is a broad subject that includes many networks and information security mechanisms, such as data security, digital forensics, ethical hacking, 
+                and many more. With that being said, we can conclude that ethical hacking is a subpart of cyber security.</p>
+                <br>
+                <p>This profession requires a combination of different skills and tools to provide a secure environment for users.
+                    Experts need to have a strong understanding of various subjects and to be able to face challenges such as zero-day attacks, ransomware, kill chains, zero-day attacks, etc.</p>
+                <br>
+                <h3 id="cyber-security-expert-job-description">Cyber security expert job description</h3><br>
+
+                <p>A cyber security expert’s prominent role to perform regular audits, discover inefficiencies in the system, 
+                and then implement the most efficient technologies to improve the security system. Here are some of the responsibilities that come with this role:</p><br>
+                <ul>
+                    <li>By performing routine maintenance, they need to keep the security system updated. </li><br>
+                    <li>The professional must grant appropriate access privileges for advanced system protection.</li><br>
+                    <li>They have to explain to the organization about the consequences of malicious attacks.</li><br>
+                    <li>They provide various suggestions to improve the security system.</li><br>
+                    </ul>
+                    <h4 id="educational-qualifications">Educational qualifications</h4><br>
+                    <p>The cyber security specialist must have a bachelor’s degree in computer science, <a href="https://bau.edu/program/bs-in-information-technology/">information technology</a>, telecommunications, electronics &amp; electrical, or any related field. According to the <a href="https://www.bls.gov/ooh/computer-and-information-technology/home.htm" target="_blank" rel="noopener">U.S. Bureau of Labor Statistics,</a> information security analysts’ employment is projected to grow 31 percent by 2029, much faster than the average for all occupations.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name" required>
+                        <input type="email" placeholder="Enter Email" required>
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero_btn btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>29</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Full Stack</span>
+                    <span>20</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Page Section end -->
+    
+    <!-- Footer Section start -->
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+        <p>Hey, I am CSE student of PSIT College.
+            <br> Be the best teammate you can be, be the best player you can be, and just be as supportive and encouraging.
+        </p>
+
+        <div class="icons">
+                    <a href="https://twitter.com/codingvivek"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/__vivek.04__/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCWhbgv1Qs_ZOKpjOEqqDg8Q/featured"><i class="fab fa-youtube"></i></a>
+                    <a href="https://github.com/codingvivek"><i class="fab fa-github"></i></a>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by <a href="#">Vivek Developer</a></p>
+        <p>Copyright © 2022 <a href="index.html">WebMate</a>. All Rights Reserved</p>
+    </section>
+    <!-- Footer Section end -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
