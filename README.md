@@ -5,7 +5,7 @@
 
   <p align="center">
     It is a personal static website/E-Learning template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://codingvivek.github.io/educator/">codingvivek.github.io/educator</a>
+    <a href="https://codingvivek.github.io/online-course/">codingvivek.github.io/online-course</a>
     <br />
     <br />
     <a href="https://codingvivek.github.io">About Me</a>
@@ -19,11 +19,10 @@
 [![GitHub license](https://img.shields.io/github/license/codingvivek/portfolio?style=for-the-badge)](https://github.com/codingvivek/home/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/codingvivek?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/codingvivek)
 
-[![Site preview](/img/home.png)](https://codingvivek.github.io/educator/)
+[![Site preview](/img/home.png)](https://codingvivek.github.io/online-course/)
 
 
-E-learning platform website for competition Exam
-
+E-learning platform website & protfolio website
 **Features :**
 
 - Responsive Website
