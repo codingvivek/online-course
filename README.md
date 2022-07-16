@@ -19,7 +19,7 @@
 [![GitHub license](https://img.shields.io/github/license/codingvivek/portfolio?style=for-the-badge)](https://github.com/codingvivek/home/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/codingvivek?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/codingvivek)
 
-[![Site preview](/imag/home.png)](https://codingvivek.github.io/educator/)
+[![Site preview](/img/home.png)](https://codingvivek.github.io/educator/)
 
 
 E-learning platform website for competition Exam
